@@ -1,9 +1,13 @@
 .gauge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 100%;
     max-width: 250px;
     font-family: "Roboto", sans-serif;
     font-size: 32px;
     color: #004033;
+    transform: translate(-50%, -50%);
   }
   
   .gauge__body {

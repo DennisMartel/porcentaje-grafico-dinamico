@@ -9,4 +9,4 @@ function setGaugeValue(gauge, value) {
     gauge.querySelector(".gauge__cover").textContent = `${Math.round(value * 100)}%`;
 }
 
-setGaugeValue(gaugeElement, 0.8);
+setGaugeValue(gaugeElement, 0.3);
